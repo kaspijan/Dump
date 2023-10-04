@@ -1,2 +1,2 @@
-# Temp
-Temporary repo
+Repository for various projects and exercises.
+
