@@ -1,0 +1,141 @@
+Seed = 698
+Gledamo batch_size_train za optimalnu strukturu
+
+Hiperparametri:
+hidden_size = 150
+num_layers = 2
+dropout = 0.1
+bidir=TrueGubitak = BCEWithLogitsLoss
+Optimizator = Adam, lr = 1e-4
+Broj epoha = 5
+batch_size_test/eval = 32
+shuffle = True
+clip = 0.25
+Cell type = LSTM
+-----------------------------------
+
+
+
+
+batch size = 5
+
+
+Epoha: 1
+Eval acc: 76.88083470620538%
+F1: 0.7376947040498443
+Matrica zabune: [[592, 320], [101, 808]]
+Gubitak: 0.5716882379431474
+
+Epoha: 2
+Eval acc: 78.41845140032949%
+F1: 0.7956318252730109
+Matrica zabune: [[765, 147], [246, 663]]
+Gubitak: 0.5922886726626179
+
+Epoha: 3
+Eval acc: 76.71609006040637%
+F1: 0.7873620862587764
+Matrica zabune: [[785, 127], [297, 612]]
+Gubitak: 0.749863477652533
+
+Epoha: 4
+Eval acc: 79.07742998352553%
+F1: 0.7907742998352554
+Matrica zabune: [[720, 192], [189, 720]]
+Gubitak: 0.6906936809159162
+
+Epoha: 5
+Eval acc: 78.25370675453048%
+F1: 0.7873254564983888
+Matrica zabune: [[733, 179], [217, 692]]
+Gubitak: 0.6288194977923444
+
+Test:Test acc:78.6697247706422%
+F1: 0.7876712328767124
+Matrica zabune:[[345, 83], [103, 341]]
+Gubitak:0.6823965422809124
+
+
+-------------------------------------------
+
+batch size = 20
+
+
+Epoha: 1
+Eval acc: 71.71883580450302%
+F1: 0.6527309507754552
+Matrica zabune: [[484, 428], [87, 822]]
+Gubitak: 0.667080904830966
+
+Epoha: 2
+Eval acc: 75.7276221856123%
+F1: 0.7903225806451613
+Matrica zabune: [[833, 79], [363, 546]]
+Gubitak: 0.5034535145550444
+
+Epoha: 3
+Eval acc: 73.53102690829215%
+F1: 0.7809090909090909
+Matrica zabune: [[859, 53], [429, 480]]
+Gubitak: 0.5732066155525676
+
+Epoha: 4
+Eval acc: 78.25370675453048%
+F1: 0.7924528301886793
+Matrica zabune: [[756, 156], [240, 669]]
+Gubitak: 0.46781822673061435
+
+Epoha: 5
+Eval acc: 75.06864360241624%
+F1: 0.7880485527544351
+Matrica zabune: [[844, 68], [386, 523]]
+Gubitak: 0.5314487014946184
+
+Test:Test acc:73.85321100917432%
+F1: 0.7760314341846758
+Matrica zabune:[[395, 33], [195, 249]]
+Gubitak:0.547576476420675
+
+
+-------------------------------------------
+
+batch size = 100
+
+
+Epoha: 1
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6896994061637343
+
+Epoha: 2
+Eval acc: 74.46457990115321%
+F1: 0.7594412829798242
+Matrica zabune: [[734, 178], [287, 622]]
+Gubitak: 0.5525126540869997
+
+Epoha: 3
+Eval acc: 77.75947281713344%
+F1: 0.7748749305169539
+Matrica zabune: [[697, 215], [190, 719]]
+Gubitak: 0.498072133775343
+
+Epoha: 4
+Eval acc: 77.3201537616694%
+F1: 0.7936031984007996
+Matrica zabune: [[794, 118], [295, 614]]
+Gubitak: 0.4913965787803918
+
+Epoha: 5
+Eval acc: 77.97913234486545%
+F1: 0.7959287531806616
+Matrica zabune: [[782, 130], [271, 638]]
+Gubitak: 0.4634154669025488
+
+Test:Test acc:77.29357798165137%
+F1: 0.7870967741935484
+Matrica zabune:[[366, 62], [136, 308]]
+Gubitak:0.48461361122982843
+
+
+-------------------------------------------

@@ -1,0 +1,97 @@
+Seed = 698
+Gledamo kako vektorska matrica utjece - promatramo ucitane i nasumicne reprezentacije
+
+Hiperparametri:
+hidden_size = 150
+num_layers = 2
+dropout = 0.1
+bidir=False(zbog brzine)Gubitak = BCEWithLogitsLoss
+Optimizator = Adam, lr = 1e-4
+Broj epoha = 5
+batch_size_train = 5, batch_size_test/eval = 32
+shuffle = True
+clip = 0.25
+Cell type = LSTM
+-----------------------------------
+
+
+ucitane reprezentacije
+
+Epoha: 1
+Eval acc: 74.95881383855024%
+F1: 0.7229647630619684
+Matrica zabune: [[595, 317], [139, 770]]
+Gubitak: 0.6543004319333193
+
+Epoha: 2
+Eval acc: 74.1900054914882%
+F1: 0.7225501770956316
+Matrica zabune: [[612, 300], [170, 739]]
+Gubitak: 0.6855533274642208
+
+Epoha: 3
+Eval acc: 73.86051619989017%
+F1: 0.6936936936936937
+Matrica zabune: [[539, 373], [103, 806]]
+Gubitak: 0.8174936112604643
+
+Epoha: 4
+Eval acc: 69.08292147171883%
+F1: 0.5863335782512858
+Matrica zabune: [[399, 513], [50, 859]]
+Gubitak: 1.2344577992171573
+
+Epoha: 5
+Eval acc: 71.05985722130697%
+F1: 0.6352941176470588
+Matrica zabune: [[459, 453], [74, 835]]
+Gubitak: 1.1304551770812588
+
+Test:Test acc:71.3302752293578%
+F1: 0.6418338108882522
+Matrica zabune:[[224, 204], [46, 398]]
+Gubitak:1.127565355173179
+
+
+-------------------------------------------
+
+nasumicne reprezentacije
+
+Epoha: 1
+Eval acc: 61.17517847336629%
+F1: 0.6096079514080619
+Matrica zabune: [[552, 360], [347, 562]]
+Gubitak: 0.6741470380833274
+
+Epoha: 2
+Eval acc: 68.5886875343218%
+F1: 0.7265774378585086
+Matrica zabune: [[760, 152], [420, 489]]
+Gubitak: 0.6039429568407828
+
+Epoha: 3
+Eval acc: 68.14936847885778%
+F1: 0.7361237488626023
+Matrica zabune: [[809, 103], [477, 432]]
+Gubitak: 0.6585495398755659
+
+Epoha: 4
+Eval acc: 69.9066447007139%
+F1: 0.7476979742173112
+Matrica zabune: [[812, 100], [448, 461]]
+Gubitak: 0.8252486105550799
+
+Epoha: 5
+Eval acc: 70.67545304777595%
+F1: 0.7457142857142857
+Matrica zabune: [[783, 129], [405, 504]]
+Gubitak: 0.9914006224849767
+
+Test:Test acc:70.18348623853211%
+F1: 0.7389558232931727
+Matrica zabune:[[368, 60], [200, 244]]
+Gubitak:1.0524207726120949
+
+
+-------------------------------------------
+

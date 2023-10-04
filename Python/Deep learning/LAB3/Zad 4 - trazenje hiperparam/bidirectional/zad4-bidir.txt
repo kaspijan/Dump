@@ -1,0 +1,120 @@
+Seed = 698
+Hiperparametri:
+Hidden_size = 150
+num_layers = 2
+dropout = 0
+Gubitak = BCEWithLogitsLoss
+Optimizator = Adam, lr = 1e-4
+Broj epoha = 7
+batch_size_train = 10, batch_size_test/eval = 32
+shuffle = True
+clip = 0.25
+Cell type = LSTM
+-----------------------------------
+
+
+
+Bidirectional = True
+
+
+Epoha: 1
+Eval acc: 77.3201537616694%
+F1: 0.753726893261777
+Matrica zabune: [[632, 280], [133, 776]]
+Gubitak: 0.5065345622991261
+
+Epoha: 2
+Eval acc: 77.42998352553542%
+F1: 0.7937782237832414
+Matrica zabune: [[791, 121], [290, 619]]
+Gubitak: 0.45912673520414454
+
+Epoha: 3
+Eval acc: 79.46183415705657%
+F1: 0.7828106852497096
+Matrica zabune: [[674, 238], [136, 773]]
+Gubitak: 0.44952380134348285
+
+Epoha: 4
+Eval acc: 78.5282811641955%
+F1: 0.7894453419493808
+Matrica zabune: [[733, 179], [212, 697]]
+Gubitak: 0.44169132855900545
+
+Epoha: 5
+Eval acc: 77.92421746293246%
+F1: 0.7859424920127795
+Matrica zabune: [[738, 174], [228, 681]]
+Gubitak: 0.4433700013578984
+
+Epoha: 6
+Eval acc: 77.92421746293246%
+F1: 0.7829373650107991
+Matrica zabune: [[725, 187], [215, 694]]
+Gubitak: 0.4900900920232137
+
+Epoha: 7
+Eval acc: 73.69577155409117%
+F1: 0.6756939742721734
+Matrica zabune: [[499, 413], [66, 843]]
+Gubitak: 0.6815300923690462
+
+Test:Test acc:73.85321100917432%
+F1: 0.6770538243626062
+Matrica zabune:[[239, 189], [39, 405]]
+Gubitak:0.6949210294655391
+
+
+-------------------------------------------
+Bidirectional = False
+
+
+Epoha: 1
+Eval acc: 77.37506864360242%
+F1: 0.774617067833698
+Matrica zabune: [[708, 204], [208, 701]]
+Gubitak: 0.5519679936400631
+
+Epoha: 2
+Eval acc: 78.36353651839649%
+F1: 0.7861020629750272
+Matrica zabune: [[724, 188], [206, 703]]
+Gubitak: 0.4842816839615504
+
+Epoha: 3
+Eval acc: 78.91268533772653%
+F1: 0.7897042716319824
+Matrica zabune: [[721, 191], [193, 716]]
+Gubitak: 0.46120612244856984
+
+Epoha: 4
+Eval acc: 78.96760021965953%
+F1: 0.8030848329048843
+Matrica zabune: [[781, 131], [252, 657]]
+Gubitak: 0.46384018816446004
+
+Epoha: 5
+Eval acc: 78.69302580999451%
+F1: 0.8054162487462387
+Matrica zabune: [[803, 109], [279, 630]]
+Gubitak: 0.46574336185789944
+
+Epoha: 6
+Eval acc: 80.0658978583196%
+F1: 0.8074270557029177
+Matrica zabune: [[761, 151], [212, 697]]
+Gubitak: 0.4609101145413884
+
+Epoha: 7
+Eval acc: 78.96760021965953%
+F1: 0.7815173987450086
+Matrica zabune: [[685, 227], [156, 753]]
+Gubitak: 0.45132787760935333
+
+Test:Test acc:79.58715596330275%
+F1: 0.7860576923076923
+Matrica zabune:[[327, 101], [77, 367]]
+Gubitak:0.45878404432109426
+
+
+-------------------------------------------

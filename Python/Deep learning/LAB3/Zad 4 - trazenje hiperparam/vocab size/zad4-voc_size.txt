@@ -1,0 +1,170 @@
+Seed = 698
+Utjecaj velicine ucitanog vokabulara na ucenje
+
+Hiperparametri:
+hidden_size = 150
+num_layers = 2
+dropout = 0.1
+bidir=False(radi brzine)Gubitak = BCEWithLogitsLoss
+Optimizator = Adam, lr = 1e-4
+Broj epoha = 7
+batch_size_train = 20 (radi brzine), batch_size_test/eval = 32
+shuffle = True
+clip = 0.25
+Cell type = LSTM
+-----------------------------------
+
+
+
+Epoha: 1
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6939102975945723
+
+Epoha: 2
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6934291176628649
+
+Epoha: 3
+Eval acc: 66.44700713893465%
+F1: 0.7203661327231121
+Matrica zabune: [[787, 125], [486, 423]]
+Gubitak: 0.6284294829033968
+
+Epoha: 4
+Eval acc: 67.54530477759472%
+F1: 0.7287746672785681
+Matrica zabune: [[794, 118], [473, 436]]
+Gubitak: 0.607476893747062
+
+Epoha: 5
+Eval acc: 69.79681493684788%
+F1: 0.7415413533834586
+Matrica zabune: [[789, 123], [427, 482]]
+Gubitak: 0.5818145912990236
+
+Epoha: 6
+Eval acc: 73.75068643602415%
+F1: 0.7553735926305015
+Matrica zabune: [[738, 174], [304, 605]]
+Gubitak: 0.5486777022219541
+
+Epoha: 7
+Eval acc: 73.53102690829215%
+F1: 0.7646484375
+Matrica zabune: [[783, 129], [353, 556]]
+Gubitak: 0.5613894096592016
+
+Test:Test acc:70.29816513761467%
+F1: 0.7391742195367573
+Matrica zabune:[[367, 61], [198, 246]]
+Gubitak:0.6271438268678529
+
+
+-------------------------------------------
+
+
+Epoha: 1
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6938169598579407
+
+Epoha: 2
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6895894167716043
+
+Epoha: 3
+Eval acc: 62.932454695222404%
+F1: 0.6799431009957326
+Matrica zabune: [[717, 195], [480, 429]]
+Gubitak: 0.6537422914254037
+
+Epoha: 4
+Eval acc: 67.87479406919276%
+F1: 0.7085201793721974
+Matrica zabune: [[711, 201], [384, 525]]
+Gubitak: 0.6141921067446993
+
+Epoha: 5
+Eval acc: 69.74190005491488%
+F1: 0.7287050713934022
+Matrica zabune: [[740, 172], [379, 530]]
+Gubitak: 0.6012147063748878
+
+Epoha: 6
+Eval acc: 71.33443163097199%
+F1: 0.706081081081081
+Matrica zabune: [[627, 285], [237, 672]]
+Gubitak: 0.5790614820363229
+
+Epoha: 7
+Eval acc: 72.9269632070291%
+F1: 0.7194080819578828
+Matrica zabune: [[632, 280], [213, 696]]
+Gubitak: 0.560712489642595
+
+Test:Test acc:72.36238532110092%
+F1: 0.7064555420219245
+Matrica zabune:[[290, 138], [103, 341]]
+Gubitak:0.5878347371305738
+
+
+-------------------------------------------
+
+
+Epoha: 1
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6938355303647226
+
+Epoha: 2
+Eval acc: 49.9176276771005%
+F1: 0.0
+Matrica zabune: [[0, 912], [0, 909]]
+Gubitak: 0.6940744268266779
+
+Epoha: 3
+Eval acc: 60.0219659527732%
+F1: 0.6516746411483254
+Matrica zabune: [[681, 231], [497, 412]]
+Gubitak: 0.6780708881846645
+
+Epoha: 4
+Eval acc: 63.207029104887425%
+F1: 0.6149425287356322
+Matrica zabune: [[535, 377], [293, 616]]
+Gubitak: 0.6524796381331327
+
+Epoha: 5
+Eval acc: 67.54530477759472%
+F1: 0.6831099195710456
+Matrica zabune: [[637, 275], [316, 593]]
+Gubitak: 0.614674902275989
+
+Epoha: 6
+Eval acc: 69.68698517298188%
+F1: 0.7145811789038262
+Matrica zabune: [[691, 221], [331, 578]]
+Gubitak: 0.5991290975035283
+
+Epoha: 7
+Eval acc: 70.45579352004393%
+F1: 0.7069716775599129
+Matrica zabune: [[649, 263], [275, 634]]
+Gubitak: 0.5980253073207119
+
+Test:Test acc:68.23394495412845%
+F1: 0.6848691695108078
+Matrica zabune:[[301, 127], [150, 294]]
+Gubitak:0.605667478271893
+
+
+-------------------------------------------
+
