@@ -1,0 +1,55 @@
+no reg: - 8 epoha
+Train accuracy = 99.53
+
+Running evaluation:  Validation
+Validation accuracy = 99.06
+Validation avg loss = 0.04
+
+
+Running evaluation:  Test
+Test accuracy = 99.10
+Test avg loss = 0.03
+
+
+
+1e-3 - 3 epohe
+Train accuracy = 99.17
+
+Running evaluation:  Validation
+Validation accuracy = 99.12
+Validation avg loss = 0.41
+
+
+Running evaluation:  Test
+Test accuracy = 99.11
+Test avg loss = 0.41
+
+
+
+
+1e-2, 3 epohe:
+Train accuracy = 98.05
+
+Running evaluation:  Validation
+Validation accuracy = 98.36
+Validation avg loss = 0.19
+
+
+Running evaluation:  Test
+Test accuracy = 98.46
+Test avg loss = 0.19
+
+
+
+
+1e-1, 3 epohe:
+Train accuracy = 93.36
+
+Running evaluation:  Validation
+Validation accuracy = 95.82
+Validation avg loss = 0.58
+
+
+Running evaluation:  Test
+Test accuracy = 94.41
+Test avg loss = 0.62
